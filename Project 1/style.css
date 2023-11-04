@@ -43,6 +43,7 @@ main {
 footer {
     background-color: rgba(0, 0, 0, 0.309);
     height: 100px;
+    text-align: center;
     
 }
 
@@ -69,4 +70,10 @@ nav a {
     font-size: 12px;
     padding-left: 10px;
     padding-right: 10px;
+}
+
+footer p {
+    font-size: x-small;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
