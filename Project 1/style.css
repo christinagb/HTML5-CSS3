@@ -41,10 +41,9 @@ main {
 }
 
 footer {
-    background-color: rgba(0, 0, 0, 0.309);
-    height: 100px;
-    text-align: center;
-    
+    background-color: rgba(0, 0, 0, 0.619);
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 h1 {
@@ -74,6 +73,10 @@ nav a {
 
 footer p {
     font-size: x-small;
-    padding-top: 40px;
-    padding-bottom: 40px;
+    text-align: center;
+    color: whitesmoke;
+}
+
+.maps {
+    padding-bottom: 100px;
 }
