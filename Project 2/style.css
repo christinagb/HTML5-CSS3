@@ -3,7 +3,6 @@
     min-height: 300px;
     margin-left: auto;
     margin-right: auto;
-    text-align: center;
 
 }
 
@@ -12,6 +11,11 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     color: white;
     font-size: 1.125rem;
+}
+
+a {
+    color: white;
+    text-decoration: none;
 }
 
 header {
@@ -37,6 +41,7 @@ main {
     background-position: bottom;
     min-height: 250px;
     width: 30%;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.364);
 }
 
 .card2 {
@@ -44,7 +49,8 @@ main {
     background-size: cover;
     background-position: bottom;
     min-height: 250px;
-    width: 30%; 
+    width: 30%;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.364);
 }
 
 .card3 {
@@ -53,6 +59,12 @@ main {
     background-position: bottom;
     min-height: 250px;
     width: 30%;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.364);
+}
+
+.card1, .card2, .card3 {
+    padding: 30px 30px 25px 30px;
+    box-sizing: border-box;
 }
 
 .herobox1 {
@@ -79,6 +91,7 @@ h1 {
     font-size: 3.25rem;
     font-family: 'Roboto', sans-serif;
     margin-bottom: 1rem;
+    text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.364);
 }
 
 h2 {
@@ -95,11 +108,21 @@ p {
 .cards p {
     font-size: 0.85rem;
     line-height: 1.2rem;
-    margin: 10px 30px 20px 30px;
+    margin-top: 10px;
 }
 
 .cards i {
     font-size: 100px;
-    padding-top: 30px;
+}
+
+.mybutton {
+    background-color: white;
+    color: chartreuse;
+    font-family: 'Roboto', sans-serif;
+    padding: 11px 25px;
+    border-radius: 100px;
+    box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.364);
+    display: inline-block;
+    margin-top: 10px;
 }
 
