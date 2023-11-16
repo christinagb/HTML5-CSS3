@@ -7,7 +7,7 @@
 }
 
 body {
-    background-image: linear-gradient(#85FFBD, #FFFB7D);
+    background-image: linear-gradient(#6eb3f8, #6622dc);
     font-family: Arial, Helvetica, sans-serif;
     color: white;
     font-size: 1.125rem;
@@ -22,6 +22,7 @@ header {
     min-height: 100px;
     display: flex;
     align-items: center;
+    border-bottom: 1px solid Lightgrey;
 }
 
 main {
@@ -117,13 +118,17 @@ p {
 
 .mybutton {
     background-color: white;
-    color: chartreuse;
+    color: #59a4ef;
     font-family: 'Playfair Display', sans-serif;
     padding: 11px 25px;
     border-radius: 8px;
     box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.364);
     display: inline-block;
     margin-top: 10px;
+}
+
+.mybutton:hover {
+    background-color: #6622dc;
 }
 
 
@@ -133,6 +138,21 @@ p {
     color: white;
     padding: 11px 25px;
     margin-left: 16px;
+}
+
+.testimonials {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+.tbox {
+    width: 47%;
+    padding: 50px;
+    border: 1px solid white;
+    box-sizing: border-box;
+    margin-top: 50px;
 }
 
 
