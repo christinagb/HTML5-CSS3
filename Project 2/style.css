@@ -129,6 +129,7 @@ p {
 
 .mybutton:hover {
     background-color: #6622dc;
+    transition-duration: 1s;
 }
 
 
