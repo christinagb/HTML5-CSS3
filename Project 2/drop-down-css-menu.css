@@ -1,0 +1,12 @@
+.navbutton {
+    background-color: palegreen;
+    padding: 11px 25px;
+    width: 100px;
+    text-align: center;
+    display: inline-block;
+}
+
+/* This turns the drop down off when not used */
+.dropdown-box {
+    display: none;
+}
