@@ -1,3 +1,17 @@
+html {
+    background-image: linear-gradient(#6eb3f8, #6622dc);
+
+}
+
+body {
+    background-image: url(images/image-lion-background.png);
+    background-position: top center;
+    background-repeat: no-repeat;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 1.125rem;
+}
+
 .container {
     width: 1024px;
     min-height: 300px;
@@ -6,29 +20,29 @@
 
 }
 
-body {
-    background-image: linear-gradient(#6eb3f8, #6622dc);
-    font-family: Arial, Helvetica, sans-serif;
-    color: white;
-    font-size: 1.125rem;
-}
-
 a {
     color: white;
     text-decoration: none;
 }
 
 header {
-    min-height: 100px;
     display: flex;
+    justify-content: space-between;
     align-items: center;
-    border-bottom: 1px solid Lightgrey;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid lightgrey;   
 }
 
 main {
     min-height: 300px;
     display: flex;
     align-items: center;
+}
+
+.main2 {
+    min-height: 300px;
+    padding-top: 50px;
 }
 
 .cards {
@@ -78,16 +92,6 @@ main {
     flex: 1;
 }
 
-.box1 {
-    flex: 1;
-    padding: 16px;
-}
-
-.box2 {
-    flex: 3;
-    text-align: right;
-}
-
 h1 {
     font-size: 3.25rem;
     font-family: 'Playfair Display', sans-serif;
@@ -133,12 +137,12 @@ p {
 }
 
 
-.navbutton a {
+.navbutton {
     border: 1px solid white;
     font-family: 'Playfair Display', sans-serif;
-    color: white;
     padding: 11px 25px;
-    margin-left: 16px;
+    display: inline-block;
+    position: relative;
 }
 
 .testimonials {
@@ -156,5 +160,54 @@ p {
     margin-top: 50px;
 }
 
+.dropdown {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    padding-top: 20px;
+    text-align: center;
+}
 
+.navbutton:hover .dropdown {
+    display: block;
+}
+
+.dropdown .navbutton {
+    width: 120px;
+    background-color: white;
+}
+
+.dropdown .navbutton a {
+    color: #6eb3f8;
+    border-bottom: 1px solid #6eb3f8;
+}
+
+.inputwrapper {
+    margin-bottom: 30px;
+}
+
+input[type=text], input[type=email], textarea {
+    padding: 12px 20px;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.85rem;
+    box-sizing: border-box;
+}
+
+.newline {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.margin-right-a {
+    margin-right: 20px;
+}
+
+input[type=radio] {
+    margin-right: 10px;
+}
+
+form {
+    margin: 40px 0px; 
+}
 

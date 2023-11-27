@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Roar Cycle - Bike Repairs in Dublin</title>
+    <title>Roar Cycle - Contact us Details Address Phone Number</title>
+    <meta name="description" content="Contact detais for Roar Bikes - 57 Moyglare Abbey, Dublin, w23c1k2">
 
     <!-- This is Eric Meyers CSS reset -->
     <link rel="stylesheet" href="css-reset.css">
@@ -19,8 +20,7 @@
     <div class="container">
         <header>
             <div class="logo">
-                <a href="index.html">
-                    <img src="images/logo-roar-bikes.svg" alt="Logo-roar-bikes"></a>
+                <a href="index.html"><img src="images/logo-roar-bikes.svg" alt="Logo-roar-bikes"></a>
             </div>
             
             
@@ -44,24 +44,65 @@
                        </div>
 
                        <div class="navbutton">
-                          <a href="contact-us.html">Contact</a>
+                          <a href="#">Contact</a>
                        </div>
                 </nav>
             
         </header>
 
-        <main>
-            <div class="herobox1">
-                <h1>Mobile bike repairs.</h1>
+        <div class="main2">
 
-                <p>Many people have difficulty getting their bikes to a bike shop. We call to your office or home anywhere in greater Dublin.</p>
-                <p>Fast, convenient bike servicing with up-front pricing. All without the hassle of taking your bike into a shop.</p>
-                <a href="test-page.html" class="mybutton">Book Online</a> 
-            </div>
-            <div class="herobox2">
-                <img src="images/image-bike-repair-service.jpg" alt="person servicing a bike in Dublin">
-            </div>
-        </main>
+            <h1>Contact Us</h1>
+            <p>Do you have any questions? Please do not hesitate to contact us directly. Our team will come back to you within a matter of hours to help you.</p>
+
+            <form action="mail.php" method="post">
+
+                <div class="inputwrapper">
+                    <label for="name" class="newline">Name</label>
+                    <input type="text" name="name" id="name" placeholder="Name">
+                </div>
+
+                <div class="inputwrapper">
+                    <label for="email" class="newline">Your email</label>
+                    <input type="email" name="email" id="christinagb@zoho.com" placeholder="email">
+                </div>
+
+                <div class="inputwrapper">
+                    <textarea name="Message" id="Message" cols="100" rows="5" placeholder="Let us know what you think"></textarea>
+                </div>
+
+                <div class="inputwrapper">
+                    
+                    <input type="checkbox" name="email-sub" id="email-sub" value="Yes-sign-me-up">
+                    <label for="email-sub">Sign Up for Email Newsletter</label>
+                </div>
+
+                <div class="inputwrapper">
+
+                    <p>How would you like to be contacted?</p>
+                    <input type="radio" name="contact-pref" id="phone" value="phone">
+                    <label for="phone" class="margin-right-a">Phone</label>
+                    <input type="radio" name="contact-pref" id="email2" value="Email">
+                    <label for="email2">Email</label>
+                </div>
+
+                <div class="inputwrapper">
+                    <select name="county" id="county">
+
+                        <option value="Not-Chosen">Choose county</option>
+                        <option value="Limerick">Limerick</option>
+                        <option value="Galway">Galway</option>
+                        <option value="Dublin">Dublin</option>
+
+    
+                    </select>
+                </div>
+
+                <input type="submit" value="Fire Away" class="mybutton"> 
+            </form>
+        
+        </div>
+
 
         <div class="cards">
             <div class="card1">
